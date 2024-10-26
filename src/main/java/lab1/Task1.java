@@ -20,12 +20,15 @@ package main.java.lab1;
  ***/
 public class Task1 {
     public void execute() {
+        StringBuilder ans = new StringBuilder();
         for (int i = 1; i <= 100; i++) {
-            System.out.print(i);
-            if (i % 10 != 0)
-                System.out.print(",");
-            else
-                System.out.println();
+            ans.append(i);
+            if (i % 10 == 0) {
+                ans.append("\n");
+            } else {
+                ans.append(", ");
+            }
         }
+        System.out.println(ans.toString());
     }
 }
