@@ -30,4 +30,5 @@ public class Warrior extends Player implements Attacker{
             System.out.println("Ваш герой мертв. Дождитесь воскрешения.");
         }
     }
+
 }

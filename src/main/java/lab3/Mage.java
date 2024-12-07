@@ -7,6 +7,7 @@ public class Mage extends Player implements SpellCaster {
         super(name, maxHealth, x, y, damage, defence, attackRadius);
     }
 
+
     @Override
     public void castSpell(Player player) {
         if (getIsAlive()) {

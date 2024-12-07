@@ -95,4 +95,5 @@ public abstract class Player {
                 "with " + damage + " damage " +
                 "and " + defence + " defence";
     }
+
 }

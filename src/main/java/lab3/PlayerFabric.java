@@ -16,4 +16,5 @@ public class PlayerFabric {
     public Priest createPriest(String name) {
         return new Priest(name, 80, 0, 0, 20, 5, 10);
     }
+
 }

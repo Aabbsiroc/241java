@@ -19,4 +19,5 @@ public class Tank extends Warrior {
     protected int getDefence() {
         return super.getDefence() + additionalDefence;
     }
+
 }

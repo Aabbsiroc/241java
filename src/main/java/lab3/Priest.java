@@ -30,4 +30,5 @@ public class Priest extends Player implements Healer {
             System.out.println("Здоровье игрока " + player.getName() + ":" + player.getcurrentHealth() + "\n");
         }
     }
+
 }
