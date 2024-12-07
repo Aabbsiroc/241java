@@ -19,5 +19,6 @@ public class Main {
         priest.move(11, 10);
         priest.heal(mage);
         System.out.println(tank);
+        System.out.println(tank);
     }
 }
