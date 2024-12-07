@@ -4,11 +4,10 @@ import java.net.SocketOption;
 
 public class Main {
     public static void main(String[] args) {
-        PlayerFabric fabric = new PlayerFabric();
-        Mage mage = fabric.createMage("mag");
-        Warrior warrior = fabric.createWarrior("war");
-        Tank tank = fabric.createTank("tank");
-        Priest priest = fabric.createPriest("prst");
+        Mage mage = new Mage("mag", 80, 0, 0, 30, 5, 5);
+        Warrior warrior = new Warrior("warrior", 100, 0, 0, 20, 20, 1);
+        Tank tank = new Tank("tank", 100, 0, 0, 15, 20, 1, 15);
+        Priest priest = new Priest("priest", 80, 0, 0, 20, 5, 10);
         mage.move(13,11);
         warrior.move(12,11);
         mage.castSpell(warrior);

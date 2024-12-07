@@ -1,6 +1,6 @@
 package main.java.lab2.task4;
 
-public class Shape {
+public abstract class Shape {
     public double length;
     public double high;
 
@@ -13,7 +13,5 @@ public class Shape {
         this.high = high;
     }
 
-    public double getVolume() {
-        return getVolume();
-    }
+    public abstract double getVolume();
 }
