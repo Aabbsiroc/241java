@@ -7,6 +7,6 @@ public class Main {
         SimpleUrl simpleUrl = new SimpleUrl();
         simpleUrl.execute();
         simpleUrl.listContent();
-        System.out.println(simpleUrl);
+        System.out.println(simpleUrl.getAddress());
     }
 }
