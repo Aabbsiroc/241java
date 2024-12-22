@@ -1,4 +1,4 @@
-package main.java.lab11;
+package lab11;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

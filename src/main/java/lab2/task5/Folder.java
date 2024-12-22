@@ -1,4 +1,4 @@
-package main.java.lab2.task5;
+package lab2.task5;
 
 import java.util.ArrayList;
 import java.util.List;

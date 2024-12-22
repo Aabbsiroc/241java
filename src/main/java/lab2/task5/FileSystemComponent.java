@@ -1,4 +1,4 @@
-package main.java.lab2.task5;
+package lab2.task5;
 
 public abstract class FileSystemComponent {
     private String name;
