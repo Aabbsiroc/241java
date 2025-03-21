@@ -1,4 +1,4 @@
-package labor2.lab1;
+package labor2.lab1.chainOfResponsibility;
 
 public class CallCenter extends Approver {
     @Override
